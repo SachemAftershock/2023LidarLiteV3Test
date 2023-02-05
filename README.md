@@ -6,7 +6,7 @@ Refer to the [Lidar Lite V3 Manual](https://static.garmin.com/pumac/LIDAR_Lite_v
 ## Wiring
 
 Thanks to Girls Of Steel for this simplified and effective wiring
-![](Documents/IMG_2876.PNG)
+![](docs/IMG_2876.PNG)
 
 This hardwiring of the trigger signal to ground (via resistor) causes the lidar to continually trigger, take measurement and pass back the pulse width proportional to the distance, then immediately repeat. The microcontroller need not send the trigger signal, simply read the DIO.  
 
@@ -14,16 +14,16 @@ Be sure to cut and place shrink tubes strategically before you solder the wire t
 
 Solder the grounds together to a loop folded on one end of the 1kOhm resistor. Use tape to cover each loose orange, blue and green wire end to keep them from shorting, then tape them together. 
 
-![](Documents/IMG_8110.jpg)
+![](docs/IMG_8110.jpg)
 
 Solder the yellow and white wires togetehr to a loop folded on the other end of the resistor.
 
-![](Documents/IMG_8111.jpg)
+![](docs/IMG_8111.jpg)
 
 Solder the 5V reds together.  Be sure to add a small diameter shrink tube onto one end before soldering, then cover solder bead and shrink it.
 
-![](Documents/IMG_8104.jpg)
+![](docs/IMG_8104.jpg)
 
 Cover all the work with a long larger diameter shrink tube.  Here is the resulting final cable assembly with Lidar.
 
-![](Documents/IMG_8109.jpg)
+![](docs/IMG_8109.jpg)
